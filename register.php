@@ -19,6 +19,4 @@ if(mysqli_query($con,$query))
 
 
 
-
-
  ?>
