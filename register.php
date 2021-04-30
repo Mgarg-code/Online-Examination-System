@@ -13,10 +13,4 @@ if(mysqli_query($con,$query))
 {
 	header("Location:index.php?run=success");
 }
-
-
-
-
-
-
  ?>
