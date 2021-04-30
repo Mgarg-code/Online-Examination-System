@@ -5,9 +5,6 @@ include("db.php");
 extract($_POST);
 $email = $_SESSION['email'] ;
 
-
-
-
  ?>
 
 
