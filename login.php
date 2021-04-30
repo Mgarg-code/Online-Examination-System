@@ -7,7 +7,6 @@ $query = "select email,pass from users where email='".$email."' and pass='".$pas
 
 $r = mysqli_query($con,$query);
 
-
 $count  = mysqli_num_rows($r);
 
 if($count>0)
