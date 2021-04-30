@@ -3,8 +3,6 @@ session_start();
 include("db.php");
 extract($_POST);
 
-
-
 $q = "select * from questions where cat_id='".$cat_opt."'";
 $_SESSION['cat_opt'] = $cat_opt;
 
