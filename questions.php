@@ -9,8 +9,6 @@ $_SESSION['cat_opt'] = $cat_opt;
 $r  = mysqli_query($con,$q);
 
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
